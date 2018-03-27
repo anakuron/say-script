@@ -1,0 +1,3 @@
+Put this to your crontab to execute the command every minute + random value given in seconds.
+
+* * * * * perl -le 'sleep rand 300' && sh ~/say.sh
